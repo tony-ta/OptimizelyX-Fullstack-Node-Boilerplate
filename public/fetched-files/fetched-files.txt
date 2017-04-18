@@ -1,0 +1,2 @@
+https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js
+https://github.com/twbs/bootstrap/releases/download/v3.3.5/bootstrap-3.3.5-dist.zip
