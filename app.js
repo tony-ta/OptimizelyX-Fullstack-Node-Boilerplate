@@ -19,7 +19,7 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req, res) {
-	randy = Math.floor((Math.random() * 3000) + 1);
+	randNum = Math.floor((Math.random() * 3000) + 1);
 	if (req.session.count==null) {
 		req.session.count=0;
 	}
@@ -27,6 +27,6 @@ app.get('/', function(req, res) {
 	res.render('index', { title:'The index page!', session:req.session });
 });
 
-app.listen(9292,function(){
-  console.log("Live at Port 9292");
+app.listen(7878,function(){
+  console.log("Live at Port 7878");
 });
